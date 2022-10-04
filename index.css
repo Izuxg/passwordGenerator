@@ -1,0 +1,162 @@
+body{
+    background: #1F2937;
+    display: flex;
+    font-family: 'Inter';
+}
+
+#container{
+    margin: 115px 144px 551px 52px;
+}
+
+h1{
+    width: 354px;
+    height: 80px;
+    left: 52px;
+    top: 115px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 100% */
+    letter-spacing: -0.025em;
+    /* white */
+    color: #FFFFFF;                                           
+}
+
+span{
+    /* text-xl/leading-7/font-normal */
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+    /* Medium grey */
+    color: #4ADF86;
+}
+
+h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+    /* Medium grey */
+    color: #D5D4D8;
+}
+
+#generateBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
+    background: #10B981;
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    /* white */
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#firstPass{
+    width: 211px;
+    height: 39px;
+    left: 52px;
+    top: 396px;
+    background: #273549;
+    border-radius: 6px;
+    /* position: absolute; */
+    margin-top: 60px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 32px;
+    /* identical to box height, or 200% */
+    display: block;
+    text-align: center;
+    color: #55F991;
+}
+
+#secondPass{
+    width: 211px;
+    height: 39px;
+    left: 287px;
+    top: 396px;
+    background: #273549;
+    border-radius: 6px;
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 32px;
+    /* identical to box height, or 200% */
+    display: block;
+    text-align: center;
+    margin-top: 90px;
+
+    color: #55F991;
+}
+
+#firstPassCopy{
+    display: inline-block;
+    align-items: center;
+    /* padding: 9px 17px 9px 15px; */
+    background: #10B981;
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    /* white */
+    color: #FFFFFF;
+}
+
+#secondPassCopy{
+    display: inline-block;
+    align-items: center;
+    /* padding: 9px 17px 9px 15px; */
+    background: #10B981;
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    /* white */
+    color: #FFFFFF;
+    margin: 0 0 20px 170px;
+}
+
+input{
+    margin-bottom: 5px;
+    border-radius: 4px;
+    width: 50px;
+}
+
+h4{
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+    /* Medium grey */
+    color: #D5D4D8; 
+}
